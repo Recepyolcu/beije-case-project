@@ -9,7 +9,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+            'Gordita': 'Gordita\\ Regular',
+        },
+        colors: {
+            'main-bg': 'rgb(249, 245, 242)', 
+            'footer-bg': 'rgb(38, 38, 38)',
+        }
+    },
   },
   plugins: [],
 }
