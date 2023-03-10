@@ -1,4 +1,5 @@
 import './globals.css'
+import Navbar from '@/components/Navbar'
 
 export const metadata = {
     title: 'Beije',
@@ -12,7 +13,8 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>  
+            <body className='flex flex-col w-full h-screen bg-main-bg'>  
+                <Navbar />
                 {children}
             </body>
         </html>

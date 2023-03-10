@@ -64,14 +64,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-}
-
 a {
   color: inherit;
   text-decoration: none;
