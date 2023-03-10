@@ -1,9 +1,11 @@
+import { useState } from "react";
 import Image from "next/image";
 import { GrPowerCycle } from 'react-icons/gr';
 
 export default function CustomPackage() {
+    const [ product, setProduct ] = useState();
     return (
-        <div className="max-w-[1150px] flex gap-32">
+        <div className="max-w-[1150px] pt-[152px] pb-[96px] flex gap-32">
             <div className="flex flex-col gap-20">
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between">
@@ -23,6 +25,8 @@ export default function CustomPackage() {
                     <div className="w-1/3 bg-black h-[3px]"></div>
                 </div>
                 <div className="flex flex-col gap-5">
+
+                    
                     
                 </div>
             </div>
