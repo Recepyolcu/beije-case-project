@@ -18,7 +18,11 @@ module.exports = {
             'footer-bg': 'rgb(38,38,38)',
             'gray': 'rgba(255,255,255,0.698)',
             'dark-gray': 'rgba(255,255,255,0.498)',
-        }
+        },
+        screens: {
+            'tablet': '1250px',
+            'mobile': '1037px',
+        },
     },
   },
   plugins: [],
