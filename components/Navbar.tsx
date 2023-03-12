@@ -18,8 +18,8 @@ export default function Navbar() {
                     </ul>
                 </nav>
                 <nav className='flex gap-2 text-3xl'>
-                    <RiShoppingBagLine />
-                    <AiOutlineUser />
+                    <a href="#"><RiShoppingBagLine /></a>
+                    <a href="#"><AiOutlineUser /></a>
                 </nav>
             </div>
         </header>
